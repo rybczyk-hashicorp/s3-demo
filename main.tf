@@ -26,7 +26,7 @@ resource "aws_s3_bucket" "demo" {
 
   tags = {
     Environment = var.environment
-    Owner       = var.owner
+ #   Owner       = var.owner
     ManagedBy   = "HCP-Terraform"
   }
 }
