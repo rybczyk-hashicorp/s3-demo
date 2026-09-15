@@ -9,7 +9,7 @@ terraform {
   }
 
   cloud {
-    organization = "REPLACE_WITH_YOUR_ORG_NAME"
+    organization = "rybczyk-hashicorp"
 
     workspaces {
       name = "terraform-demo"
