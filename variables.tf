@@ -7,7 +7,7 @@ variable "aws_region" {
 variable "bucket_prefix" {
   description = "Prefix for the S3 bucket name (must be globally unique)"
   type        = string
-  default     = "hcp-tf-interview"
+  default     = "hcp-tf-rybczyk"
 }
 
 variable "environment" {
